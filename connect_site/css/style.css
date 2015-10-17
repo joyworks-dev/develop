@@ -1,0 +1,308 @@
+@charset "UTF-8";
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+/* line 38, ../sass/style.scss */
+html {
+  font-size: 62.5%;
+  /*ベース10px*/
+}
+
+/* line 41, ../sass/style.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 49, ../sass/style.scss */
+.wrap {
+  width: 100%;
+  background-color: #7e7e7e;
+  /*footer*/
+}
+/* line 52, ../sass/style.scss */
+.wrap header {
+  color: #ffffff;
+  padding: 0px 10px;
+  width: 100%;
+  height: 60px;
+  background-color: #28B1D5;
+}
+/* line 58, ../sass/style.scss */
+.wrap header .header-inner_1 {
+  width: 41%;
+  height: 60px;
+  display: inline-block;
+  padding-right: 20px;
+  float: left;
+}
+/* line 62, ../sass/style.scss */
+.wrap header .header-inner_1 p {
+  margin-top: 30px;
+  font-size: 1.2rem;
+  text-align: right;
+}
+/* line 68, ../sass/style.scss */
+.wrap header .header-inner_2 {
+  width: 18%;
+  height: 60px;
+  display: inline-block;
+  float: left;
+}
+/* line 71, ../sass/style.scss */
+.wrap header .header-inner_2 h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+}
+/* line 75, ../sass/style.scss */
+.wrap header .header-inner_2 img {
+  position: relative;
+  top: 2px;
+  left: -10px;
+}
+/* line 81, ../sass/style.scss */
+.wrap header .header-inner_3 {
+  width: 41%;
+  height: 60px;
+  display: inline-block;
+  text-align: right;
+  float: left;
+  padding-top: 30px;
+}
+/* line 86, ../sass/style.scss */
+.wrap header .header-inner_3 p {
+  padding: 4px;
+  border: 1px #ffffff solid;
+  border-radius: 2px;
+  display: inline;
+}
+/* line 91, ../sass/style.scss */
+.wrap header .header-inner_3 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* line 97, ../sass/style.scss */
+.wrap .area-wrap {
+  font-size: 1.4rem;
+  margin: 0 auto;
+  width: 1080px;
+  padding: 40px 0;
+}
+/* line 103, ../sass/style.scss */
+.wrap .area-wrap .left_area {
+  background-color: rgba(255, 255, 255, 0.85);
+  width: 500px;
+  float: left;
+  margin: 0 20px;
+  padding: 20px;
+}
+/* line 105, ../sass/style.scss */
+.wrap .area-wrap .left_area h2 {
+  font-size: 1.8rem;
+  color: #858484;
+  padding: 0px 0 10px 0px;
+  margin-bottom: 40px;
+}
+/* line 111, ../sass/style.scss */
+.wrap .area-wrap .left_area p {
+  border-left: 10px solid #28B1D5;
+  padding: 0px 0 10px 10px;
+  margin-bottom: 40px;
+}
+/* line 116, ../sass/style.scss */
+.wrap .area-wrap .left_area ul {
+  width: 340px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+/* line 121, ../sass/style.scss */
+.wrap .area-wrap .left_area li {
+  height: 40px;
+  color: #ffffff;
+  border-radius: 5px;
+  margin: 10px 0;
+  width: 340px;
+  text-align: center;
+  padding: 12px 0 0px 0;
+}
+/* line 129, ../sass/style.scss */
+.wrap .area-wrap .left_area li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* line 133, ../sass/style.scss */
+.wrap .area-wrap .left_area li img {
+  position: relative;
+  top: -3px;
+  left: -10px;
+}
+/* line 138, ../sass/style.scss */
+.wrap .area-wrap .left_area li i {
+  position: relative;
+  top: -5px;
+  left: -10px;
+}
+/* line 142, ../sass/style.scss */
+.wrap .area-wrap .left_area li span {
+  position: relative;
+  top: -10px;
+}
+/* line 146, ../sass/style.scss */
+.wrap .area-wrap .right_area {
+  background-color: rgba(255, 255, 255, 0.85);
+  width: 500px;
+  float: left;
+  margin: 0 20px;
+  padding: 20px;
+}
+/* line 148, ../sass/style.scss */
+.wrap .area-wrap .right_area h3 {
+  font-size: 1.8rem;
+  color: #858484;
+  padding: 0px 0 10px 0px;
+}
+/* line 152, ../sass/style.scss */
+.wrap .area-wrap .right_area .form_title {
+  display: inline-block;
+  font-size: 1.2rem;
+  width: 50px;
+  margin-right: 20px;
+}
+/* line 158, ../sass/style.scss */
+.wrap .area-wrap .right_area textarea {
+  color: #858484;
+}
+/* line 161, ../sass/style.scss */
+.wrap .area-wrap .right_area input {
+  color: #858484;
+}
+/* line 164, ../sass/style.scss */
+.wrap .area-wrap .right_area li {
+  padding-bottom: 10px;
+}
+/* line 166, ../sass/style.scss */
+.wrap .area-wrap .right_area ul {
+  border: 1px #858484 solid;
+  margin-bottom: 10px;
+}
+/* line 169, ../sass/style.scss */
+.wrap .area-wrap .right_area ul li.part_title {
+  padding: 0 5px;
+  color: #ffffff;
+  height: 20px;
+  background-color: #28B1D5;
+}
+/* line 174, ../sass/style.scss */
+.wrap .area-wrap .right_area ul li.part_title .part_left {
+  text-align: left;
+  width: 50%;
+  display: inline-block;
+}
+/* line 177, ../sass/style.scss */
+.wrap .area-wrap .right_area ul li.part_title .part_left_long {
+  text-align: left;
+  width: 100%;
+  display: inline-block;
+}
+/* line 181, ../sass/style.scss */
+.wrap .area-wrap .right_area ul li.part_title .part_right {
+  text-align: right;
+  width: 50%;
+  display: inline-block;
+}
+/* line 183, ../sass/style.scss */
+.wrap .area-wrap .right_area ul li.part_title .part_right input {
+  margin-left: 5px;
+}
+/* line 189, ../sass/style.scss */
+.wrap .area-wrap .right_area ul li.parts_view {
+  text-align: center;
+  padding-top: 10px;
+}
+/* line 193, ../sass/style.scss */
+.wrap .area-wrap .right_area ul li.parts_btn {
+  text-align: center;
+}
+/* line 195, ../sass/style.scss */
+.wrap .area-wrap .right_area ul li.parts_btn label {
+  padding: 0 20px;
+}
+/* line 197, ../sass/style.scss */
+.wrap .area-wrap .right_area ul li.parts_btn label input {
+  margin-left: 5px;
+}
+/* line 203, ../sass/style.scss */
+.wrap .area-wrap .right_area a {
+  text-decoration: none;
+}
+/* line 207, ../sass/style.scss */
+.wrap .area-wrap .right_area .preview {
+  height: 40px;
+  color: #ffffff;
+  border-radius: 5px;
+  width: 340px;
+  text-align: center;
+  border: solid 2px #28B1D5;
+  margin: 80px 65px 10px 65px;
+  padding-top: 9px;
+}
+/* line 213, ../sass/style.scss */
+.wrap .area-wrap .right_area .makeform {
+  height: 40px;
+  color: #ffffff;
+  border-radius: 5px;
+  width: 340px;
+  text-align: center;
+  background-color: #28B1D5;
+  margin: 10px 65px;
+  padding-top: 12px;
+}
+/* line 219, ../sass/style.scss */
+.wrap .area-wrap .right_area .complete {
+  height: 40px;
+  color: #ffffff;
+  border-radius: 5px;
+  width: 340px;
+  text-align: center;
+  background-color: #28B1D5;
+  margin: 80px 65px 10px 65px;
+  padding-top: 12px;
+}
+/* line 227, ../sass/style.scss */
+.wrap .clear {
+  clear: both;
+}
+/* line 229, ../sass/style.scss */
+.wrap footer {
+  color: #ffffff;
+  background-color: #28B1D5;
+  text-align: right;
+  padding: 5px 10px;
+}
+/* line 235, ../sass/style.scss */
+.wrap .connect_btn {
+  margin: 0 auto;
+  font-size: 1rem;
+  color: #ffffff;
+  height: 20px;
+  width: 80px;
+  border-radius: 3px;
+  background-color: #28B1D5;
+}
+/* line 243, ../sass/style.scss */
+.wrap .connect_btn img {
+  margin: 3px;
+}
+/* line 245, ../sass/style.scss */
+.wrap .connect_btn span {
+  position: relative;
+  top: -7px;
+}
+
+/*wrap---end*/

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<!--ビューポートというのは、アクセスしているデバイスの横幅を取得して、pc、タブレット、スマホのそれぞれに対応したcssでレンダリングします。-->
+<meta name="format-detection" content="telephone=no">
+<!--意図しない番号リンクは設置しない-->
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css" type="text/css">
+</script>
+<title>プレビュー　connect</title>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+                <div class="header-inner_1">
+                    <p class="lead">アンケートもイベント招待もボタンひとつで作っちゃおう</p>
+                </div>
+                <div class="header-inner_2">
+                    <h1><img src="img/images/button_side_27.png">connect</h1>
+                </div>
+                <div class="header-inner_3">
+                    <p><a href="#" art="ログイン">ログイン</a></p>
+                    <p><a href="#" art="サインイン">サインイン</a></p>
+                </div>
+        </header>
+        <div class="clear"></div>
+        <div class="area-wrap">
+     <!--       <section class="left_area">
+                <h2>アカウント不要！</h2>
+                <p>あなたのホームページやブログに<br>アンケートやイベント招待フォームを<br>カンタンに設置できます！</p>
+                <p>使いカンタン！自分好みに入力フォームをカスタマイズして、ボタンのURLを貼り付けるだけ！</p>
+                <p>ユーザー登録すると、専用ページで<br>アンケートの管理などがカンタンにできます！</p>
+                <ul>
+                    <a href="#" style="text-decoration: none;"><li class="user_a" style="background-color:#28B1D5;"><img src="img/images/button_side_27.png"><span>ユーザー登録する</span></li></a>
+                    <a href="#" style="text-decoration: none;"><li class="twitter" style="background-color:#4099FF;"><i class="fa fa-twitter fa-2x"></i><span>twitterアカウントで登録する</span></li></a>
+                    <a href="#" style="text-decoration: none;"><li class="facebook" style="background-color:#3B5998; "><i class="fa fa-facebook fa-2x"></i><span>facebookアカウントで登録する</span></li></a>
+                </ul>
+            </section>-->
+            <section class="right_area">
+                <h3>フォームを作る</h3>
+                <ul>
+                    <li class="part_title"><span class="part_left">タイトル</span><span class="part_right">※必須項目</span></li>
+                    <li class="parts_view"><input type="text" name="title" size="30" value="ここにタイトルを入力"></li>
+                </ul>
+                <ul>
+                    <li class="part_title"><span class="part_left">説明文</span><span class="part_right">※必須項目</span></li>
+                    <li class="parts_view"><textarea name="lead" rows="3" cols="30">ここに説明文を記入</textarea></li>
+                </ul>
+                <ul>
+                    <li class="part_title"><span class="part_left">質問1</span><span class="part_right"><label>この項目を追加<input type=checkbox name="質問1"></label></span></li>
+                    <li class="parts_view"><textarea name="q1" rows="3" cols="30">ここに質問１の内容を記入</textarea></li>
+                    <li class="parts_btn">
+                        <label>はい<input type=radio name="q1"></label>
+                        <label>いいえ<input type=radio name="q1"></label>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="part_title"><span class="part_left">質問2</span><span class="part_right"><label>この項目を追加<input type=checkbox name="質問2"></label></span></li>
+                    <li class="parts_view"><textarea name="q2" rows="3" cols="30">ここに質問2の内容を記入</textarea></li>
+                    <li class="parts_btn"><label><input type="text" size="5" name="q2" value="入力"></label><input type="radio" name="q2"></li>
+                    <li class="parts_btn"><label><input type="text" size="5" name="q2" value="入力"></label><input type="radio" name="q2"></label></li><li class="parts_btn"><button>ボックスを追加</button></li>
+                </ul>
+                <ul>
+                    <li class="part_title"><span class="part_left">質問3</span><span class="part_right"><label>この項目を追加<input type=checkbox name="質問3"></label></span></li>
+                    <li class="parts_view"><textarea name="q3" rows="3" cols="30">ここに質問3の内容を記入</textarea></li>
+                    <li class="parts_btn"><label>日時<input type=date name="q3"></label></li>
+                </ul>
+                <ul>
+                    <li class="part_title"><span class="part_left">画像を添付する</span><span class="part_right"><label>この項目を追加<input type=checkbox name="画像添付"></label></span></li>
+                    <li class="parts_view"><input type="file" name="file"></li>
+                </ul>
+                                <ul>
+                    <li class="part_title"><span class="part_left">アンケート結果送信方法</span><span class="part_right"><label>この項目を追加<input type=checkbox name="アンケート結果送信方法"></label></span></li>
+                    <li class="parts_view">                    <select name="アンケート結果送信方法">
+                        <option value="mail">メールにて送信</option>
+                        <option value="none">必要なし</option>
+                    </select>
+                    </li>
+                </ul>
+                                <ul>
+                    <li class="part_title"><span class="part_left">送信先を入力</span><span class="part_right"><label>この項目を追加<input type=checkbox name="メールアドレスを入力"></label></span></li>
+                    <li class="parts_view"><input type="email" name="送信先を入力" size="30"value="メールアドレスを入力">
+
+</li>
+                </ul>
+        <a href="#" alt="#"><div class="preview"><p>フォーム画面をプレビュー</p></div></a>
+        <a href="#" alt="#"><div class="makeform"><p>フォームを作成</p></div></a>
+        
+        
+            </section>
+                <section class="right_area preview_area">
+                <h3>コードを埋め込んでください</h3>
+                <ul>
+                    <li class="part_title"><span class="part_left">下記コードを埋め込んでください。</span></li>
+                    <li class="parts_view"><input type="text" name="title" size="40" value="code"></li>
+                </ul>
+                <ul>
+                    <li class="part_title"><span class="part_left_long">あなたのブログやホームページに以下のようなボタンが表示されます。</span></li>
+                    <li class="parts_view"><div class="connect_btn"><img src="img/images/button_side_27.png" width="20px"><span>つながる</span></div></li>
+                </ul>
+                <ul>
+                    <li class="part_title"><span class="part_left_long">以下URLからもアクセスできます。</span></li>
+                    <li class="parts_view"><textarea name="q1" rows="3" cols="40">URL</textarea></li>
+                </ul>
+        <a href="#" alt="#"><div class="complete"><p>完成</p></div></a>
+        
+        
+            </section>
+        <div class="clear"></div>
+        </div>
+        <footer>
+            <p>connect copyright © All Rights Reserved.</p>
+    </footer>
+    </div><!--wrap-end-->
+</body>
+</html>
